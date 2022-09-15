@@ -421,6 +421,5 @@ public class FxWeaver {
      */
     public void shutdown() {
         closeCommand.run();
-        Platform.exit();
     }
 }
